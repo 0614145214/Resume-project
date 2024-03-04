@@ -1,0 +1,165 @@
+
+/*
+===============================================================================
+start CSS Reset
+===============================================================================
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+===============================================================================
+end CSS Reset
+===============================================================================
+*/
+
+body{
+    margin: 0px;
+    background-color: #b3daf5;
+		font-family: "DM Serif Display", serif;
+		font-weight: 400;
+		font-style: normal;
+  }
+
+header, footer{
+    overflow: hidden;
+}
+
+header h1 {
+float: left;
+width: fit-content;
+letter-spacing: 1px;
+padding: 20px 0 20px 0;
+font-size: 48PX;
+color: #2e5876;
+border-top: 4px solid #e4eff7
+}
+
+h2 {
+	text-align: center;
+padding: 5px 0 7px 0;
+font-size: 25px;
+font-weight: bolder;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+header a {
+float: right;
+display:block;
+color: #2e5876;
+text-align: center;
+padding: 14px 16px;
+background-color:#e4eff7;
+text-decoration: none;
+}
+
+header a.active {
+	background-color: whitesmoke;
+}
+
+header a:hover {
+background-color: white;
+}
+
+ header, footer, article{
+    padding-left: 10%;
+    padding-right: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+article {
+	text-align: center;
+    background-color: #e4eff7;
+	letter-spacing: 0.9px;
+	color: #2e5876;
+}
+
+footer {
+	color: #2e5876;
+	font-size: 14.5px;
+	padding-top: 20px;
+}
+
+footer a {
+	float:right;
+	color: #2e5876;
+	text-decoration: none;
+	padding: 0 15px 0 15px;
+}
+
+footer a.active{
+	color:#e4eff7
+}
+
+footer a:hover {
+	font-weight: bold;
+color:white
+}
+
+article a {
+	color: #2e5876;
+	text-decoration:underline
+	padding 0 2.5px 0 2.5px;
+}
+
+article a:hover {
+	font-weight: bold;
+color:white
+}
