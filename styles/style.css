@@ -91,6 +91,7 @@ font-weight: bolder;
 }
 
 h3 {
+	padding-bottom: 6px;
 	font-weight: bold;
 }
 
@@ -183,3 +184,44 @@ article a:hover {
 	font-weight: bold;
 color:white
 }
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color:#2e5876;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color:#e4eff7;
+  }
+  
+  .container {
+	background-color:#b3daf5;
+	padding: 20px;
+  }
+
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+	}
+
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
