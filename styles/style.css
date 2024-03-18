@@ -95,9 +95,12 @@ h3 {
 	font-weight: bold;
 }
 
-header a {
-float: right;
-display:block;
+nav {
+	display: flex;
+	justify-content: right;
+}
+
+nav a {
 color: #2e5876;
 text-align: center;
 padding: 14px 16px;
@@ -105,15 +108,15 @@ background-color:#e4eff7;
 text-decoration: none;
 }
 
-header a.active {
+nav a.active {
 	background-color: whitesmoke;
 }
 
-header a:hover {
+nav a:hover {
 background-color: white;
 }
 
- header, footer, article{
+ header, footer, article, nav {
     padding-left: 10%;
     padding-right: 10%;
 	padding-top: 1%;
@@ -150,6 +153,7 @@ article {
 .content {
 	background-color:#b3daf5;
 	padding: 10px;
+	min-height: 300px;
 }
 
 footer {
@@ -217,7 +221,6 @@ input[type=text], select, textarea {
 		width: 50%;
 	}
 	}
-
 
 @media screen and (max-width: 600px) {
 	.column {
